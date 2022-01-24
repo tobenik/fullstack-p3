@@ -1,0 +1,14 @@
+GET http://localhost:3001/info
+
+###
+GET http://localhost:3001/api/persons/61eb912f330e0c2ca4b9097f
+
+###
+
+PUT http://localhost:3001/api/persons/61eb90e3496e212db70ba056
+Content-Type: application/json
+
+{
+    "name": "Arto Hellas",
+    "number": "122"
+}

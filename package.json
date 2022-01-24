@@ -20,7 +20,10 @@
   "homepage": "https://github.com/tobenik/fullstack-p3#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
     "express": "^4.17.2",
+    "mongoose": "^6.1.7",
+    "mongoose-unique-validator": "^3.0.0",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
